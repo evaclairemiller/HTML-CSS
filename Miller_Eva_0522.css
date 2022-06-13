@@ -1,0 +1,882 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+main
+{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.2;
+}
+
+h1, h2, h3
+{
+    font-weight: bold;
+}
+
+h1
+{
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+h2
+{
+    font-size: 18px;
+}
+
+h3
+{
+    font-size: 16px;
+}
+
+p
+{
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+b
+{
+    font-weight: 600;
+}
+
+.topnav
+{
+    align-self: center;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.topnav img
+{
+    height: 48px;
+    padding-top: 45px;
+    padding-left: 20px;
+}
+
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+}
+
+ul
+{
+    text-align: center;
+}
+
+ul li
+{
+    list-style: none;
+    align-items: center;
+    width: 50%;
+    padding: 40px 40px 0px 40px;
+    border-top: transparent solid 3px;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+ul li:hover
+{
+    border-top: #0065FC solid 3px;
+}
+
+ul li a:hover
+{
+    color: #0065FC;
+}
+
+.intro
+{
+    padding-top: 40px;
+}
+
+form
+{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 54px;
+    width: 32%;
+    border: 1.5px;
+    border-color: #F2F2F2;
+    border-radius: 15px;
+    border-style: solid;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+form p
+{
+    font-weight: bold;
+}
+
+.fa-location-dot
+{
+    color: black;
+    font-size: 20px;
+    height: 101%;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+input
+{
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.search-button-comp
+{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #0065FC;
+    color: white;
+}
+
+.search-button-tel
+{
+    display: none;
+}
+
+.filters
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 32px 0px 32px 0px;
+    gap: 10px;
+}
+
+.filters p
+{
+    font-weight: 600;
+    font-size:19px;
+    padding-left: 2px;
+}
+
+.filter-options
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 28px;
+}
+
+.filter-options p
+{
+    margin-left: 10px;
+}
+
+.filter-option-1
+{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+
+.filter-option
+{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px;
+    border-style: solid;
+    border-left: transparent;
+    border-radius: 50px;
+    border-color: lightgrey;
+    padding-right: 20px;
+}
+
+.filters .fa-solid
+{
+    height: 52px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.filters .fa-solid:hover
+{
+    height: 54px;
+    background-color: #0065FC;
+    color: white;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 8px;
+    gap: 10px;
+}
+
+.fa-info
+{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #F2F2F2;
+    color: #0065FC;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#hebergements
+{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    padding: 30px 0px 30px 0px;
+}
+
+#hebergements p
+{
+    font-size: 14px;
+}
+
+.stars i
+{
+    font-size: 12px;
+    color: #0065FC;
+    margin: 0px -1px 0px -1px;
+}
+
+.left
+{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 45px 12px 40px 12px;
+}
+
+.left h1, h2
+{
+    padding-left: 30px;
+}
+
+.left img
+{
+    height: 125px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.blocs-left
+{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 25px 10px 25px 10px;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.bloc-left
+{
+    width: 28%;
+    height: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 5.5px;
+    border-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    box-shadow: 0px 0px 20px lightgray;
+    overflow: hidden;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.bloc-left-text
+{
+    padding: 10px;
+}
+
+.fa-solid.fa-star.grey
+{
+    color: lightgrey;
+}
+
+
+.right
+{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 40px;
+    padding-top: 45px;
+}
+
+.right img
+{
+    height: 140px;
+    width: 40%;
+    border-top-left-radius: 16px;
+    object-fit: cover;
+}
+
+.populaires
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.populaires i
+{
+    color: black;
+    font-size: 24px;
+}
+
+.bloc-right
+{
+    display: flex;
+    flex-direction: row;
+    border: 5.5px;
+    border-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    box-shadow: 0px 0px 20px lightgray;
+    overflow: hidden;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.blocs-right
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.bloc-right-infos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 0px 8px 20px;
+}
+
+#activites
+{
+    padding: 30px 0px 60px 0px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.horizontal
+{
+    height: 470px;
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.horizontal div
+{
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.horizontal h3
+{
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 15px 0px 15px 20px;
+    border-radius: 0px 0px 20px 20px;
+    color: black;
+}
+
+.horizontal img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.large
+{
+    height: 90%;
+}
+
+.small
+{
+    height: 80%;
+}
+
+.small2
+{
+    height: 70%;
+}
+
+.vertical-1, .vertical-2
+{
+    width: 22.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: none;
+}
+
+.vertical-1 div, .vertical-2 div
+{
+    position: relative;
+}
+
+.photo
+{
+    position: relative;
+    width: 22.5%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightgray;
+    text-decoration: none;
+    color: black;
+}
+
+#fort-de-pomegues
+{
+    border-radius: 20px;
+    height: 52%;
+    background-color: white;
+    box-shadow: 0px 0px 20px lightgray;
+}
+
+#iles-de-frioul
+{
+    height: 38%;
+    background-color: white;
+    box-shadow: 0px 0px 20px lightgray;
+}
+
+#notre-dame-de-la-garde
+{
+    height: 40%;
+    background-color: white;
+    box-shadow: 0px 0px 20px lightgray;
+}
+
+#parc-longchamp
+{
+    height: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 20px lightgray;
+}
+
+footer
+{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+footer h2
+{
+    padding: 0px 0px 12px 0px;
+}
+
+.text-footer
+{
+    max-width: 1400px;
+    margin: auto;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.2;
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.column
+{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (min-device-width : 769px) and (max-device-width : 992px)
+{
+    #hebergements
+    {
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+
+    .left
+    {
+        width: 95%;
+        padding: 25px;
+    }
+
+    .bloc-left
+    {
+        height: 200px;
+    }
+
+    .bloc-left-text
+    {
+        line-height: 15px;
+    }
+
+    .right
+    {
+        width: 95%;
+        padding: 25px;
+    }
+
+    .bloc-right
+    {
+        width: 30%;
+    }
+
+    .bloc-right img
+    {
+        height: 100%;
+    }
+
+    .bloc-right p
+    {
+        line-height: 20px;
+    }
+
+    .blocs-right
+    {
+        flex-direction: row;
+    }
+
+    .text-footer
+    {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    .column
+    {
+        margin-left: 0px;
+    }
+
+    .text-footer
+    {
+        padding: 30px 0px 0px 20px;
+    }
+}
+
+@media only screen and (max-device-width : 768px)
+{
+    h1
+    {
+        font-size: 20px;
+        line-height: 1;
+        margin-bottom: 8px;
+    }
+
+    h2
+    {
+        font-size: 18px;
+    }
+
+    h3
+    {
+        font-size: 14px;
+    }
+
+    p
+    {
+        line-height: 1.2;
+        font-size: 14px;
+    }
+
+    main
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .topnav
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar
+    {
+        width: 100%;
+    }
+
+    ul li
+    {
+        padding-bottom: 15px;
+        border-bottom: #F2F2F2 solid 3px;
+        border-top: none;
+    }
+
+    ul li:hover
+    {
+        color: #0065FC;
+        border-bottom: #0065FC solid 3px;
+        border-top: none;
+    }
+
+    .intro
+    {
+        padding: 40px 25px 40px 25px;
+    }
+
+    form
+    {
+        width: 315px;
+        margin-top: 30px;
+    }
+
+    input
+    {
+        font-size: 14px;
+    }
+
+    .search-button-comp
+    {
+        display: none;
+    }
+
+    .search-button-tel
+    {
+        display: block;
+        border: none;
+        background-color: #0065FC;
+        border-radius: 15px;
+        height: 100%;
+        padding: 0px 18px 0px 18px;
+        border: transparent;
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+    }
+
+    .filters
+    {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .filters p
+    {
+        font-weight: 600;
+        font-size: 14px;
+        padding-left: 2px;
+    }
+
+    .filter-options
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .filter-option-1
+    {
+        gap: 15px;
+    }
+    
+    .fa-info
+    {
+        height: 25px;
+        width: 35px;
+    }
+
+    #hebergements
+    {
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+    .right
+    {
+        width: auto;
+        padding: 45px 25px 45px 25px ;
+        flex-direction: column;
+        border-radius: 0%;
+        padding-bottom: 35px;
+    }
+
+    .blocs-right
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left
+    {
+        width: auto;
+        border-radius: 0%;
+        background-color: transparent;
+        padding-bottom: 20px;
+    }
+
+    .left img
+    {
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .left h1, .left h2
+    {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .blocs-left
+    {
+        flex-direction: column;
+        padding: 20px 10px 20px 10px;
+    }
+
+    .bloc-left
+    {
+        width: auto;
+        border: 4px;
+        border-radius: 15px;
+        border-color: white;
+        border-style: solid;
+    }
+
+    #activites
+    {
+        border-radius: 0%;
+        background-color: transparent;
+        padding: 30px 20px 30px 20px;
+    }
+
+    .horizontal
+    {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .horizontal div
+    {
+        border: 0;
+        width: 100%;
+        border-radius: 20px;
+        border-style: solid;
+    }
+
+    .horizontal img
+    {
+        height: 180px;
+        width: 100%;
+    }
+
+    .vertical-1, .vertical-2
+    {
+        height: auto;
+    }
+
+    #photo
+    {
+        width: auto;
+        height: 180px;
+        margin-bottom: 50px;
+    }
+
+    #fort-de-pomegues
+    {
+        margin-bottom: 70px;
+    }
+
+    #iles-de-frioul
+    {
+        margin-bottom: 70px;
+    }
+
+    #notre-dame-de-la-garde
+    {
+        margin-bottom: 70px;
+    }
+
+    #parc-longchamp
+    {
+        margin-bottom: 70px;
+    }
+
+    .footer
+    {
+        border-radius: 0%;
+        background-color: #f2f2f2;
+    }
+
+    .column
+    {
+        width: 90%;
+        gap: 10px;
+    }
+
+    .text-footer
+    {
+        flex-direction: column;
+        padding: 30px 0px 30px 30px;
+    }
+}
